@@ -1,5 +1,5 @@
 [
-    {
+    "discord:befehle", {
         "name": "kick user:@person reason*:Grund",
         "description": "Kickt eine Person vom Discord",
         "infoAnMich": "reason*: = Optional"
@@ -9,10 +9,44 @@
         "infoAnMich": "Nachricht auf Person begrenzen"
     },{
         "name": "joinrole role:@role",
-        "description": "Git leuten die dem Server joinen eine Rolle",
+        "description": "Gibt leuten die dem Server joinen eine Rolle",
         "infoAnMich": ""
     },{
-        "name": "switchrole ",
+        "name": "switchrole time:time oldrole:@role newrole:@role",
+        "description": "Nimmt eine Role von einer Person nach einer bestimmten zeit weg und gibt ihm eine neue Role",
+        "infoAnMich": "time = 2h = 2 Stunden etc. // Prüft ob @person @oldrole hat und wechselt sie nach @time mit @newrole"
+    },{
+        "name": "addrrole msg_id:msg_id emoji: :emoji:role:@role",
+        "description": "Füge eine Reaction Role zu einer Nachricht Hinzu",
+        "infoAnMich": "fügt eine Reactionrole zu einer Nachricht Hinzu (das 1 r von addrrole is für reaction addreactionrole same bei removerrole)"
+    },{
+        "name": "removerrole msg_id:msg_id role:@role",
+        "description": "Entferne eine Reaction Role von einer Nachricht",
+        "infoAnMich": "Entfernt eine bestehende Reactionrole"
+    },{
+        "name": "showrrole",
+        "description": "zeigt eine list mit allen Reactionroles die von dem bot die gemacht wurden",
+        "infoAnMich": ""
+    },{ 
+        "Birthday": "Webinterface: Geburtsdatgserrinerungen Channel auswählen können + Antwort veränderbar machen"
+    },{
+        "name": "addbday date:YYYY-MM-DD",
+        "description": "Füge deinen Geburtstag mit Jahr hinzu und der bot wird an dem tag eine nachricht in den channel schicken",
+        "infoAnMich": "Bday Nachricht (Alles gute zum geburtstag, @person ist {alter} Jahre alt geworden)"
+    },{
+        "name": "addbday date MM-DD",
+        "description": "Fügt den geburtstag ohne Jahr hinzu also kein alter wird bestimmt",
+        "infoAnMich": "(@person hat heute Geburtstag, alles gute)"
+    },{
+        "name": "removebady",
+        "description": "Entfernt deinen Geburtstag",
+        "infoAnMich": ""
+    },{
+        "name": "aremovebday user:@person",
+        "description": "Entfernt den Geb. von einer Person",
+        "infoAnMich": "nur leute die rechte dazu haben z.b. Community Admin, Mod"
+    },{
+        "name": "",
         "description": "",
         "infoAnMich": ""
     }
