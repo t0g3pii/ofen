@@ -8,8 +8,8 @@
         "description": "Schreibt den Aktuellen Ping vom Bot in den Channel",
         "infoAnMich": "Nachricht auf Person begrenzen"
     },{
-        "name": "joinrole role:",
-        "description": "",
+        "name": "joinrole role:@role",
+        "description": "Git leuten die dem Server joinen eine Rolle",
         "infoAnMich": ""
     },{
         "name": "",
