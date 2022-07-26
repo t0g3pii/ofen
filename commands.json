@@ -1,14 +1,14 @@
 [
     {
-        "name": "devonStinkt",
-        "description": "Devon Stinkt.",
-        "infoAnMich": "Soll in den Chat schreiben dass Devon stinkt"
+        "name": "kick user:@person reason*:Grund",
+        "description": "Kickt eine Person vom Discord",
+        "infoAnMich": "reason*: = Optional"
     },{
         "name": "ping",
         "description": "Schreibt den Aktuellen Ping vom Bot in den Channel",
         "infoAnMich": "Nachricht auf Person begrenzen"
     },{
-        "name": "",
+        "name": "joinrole role:",
         "description": "",
         "infoAnMich": ""
     },{
