@@ -1,0 +1,19 @@
+[
+    {
+        "name": "devonStinkt",
+        "description": "Devon Stinkt.",
+        "infoAnMich": "Soll in den Chat schreiben dass Devon stinkt"
+    },{
+        "name": "ping",
+        "description": "Schreibt den Aktuellen Ping vom Bot in den Channel",
+        "infoAnMich": "Nachricht auf Person begrenzen"
+    },{
+        "name": "",
+        "description": "",
+        "infoAnMich": ""
+    },{
+        "name": "",
+        "description": "",
+        "infoAnMich": ""
+    }
+]
