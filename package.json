@@ -1,7 +1,47 @@
 {
   "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@discordjs/collection": "^1.0.0",
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/proxy": "^1.0.0",
     "@discordjs/rest": "^1.0.0",
     "@discordjs/voice": "^0.11.0",
-    "discord.js": "^14.0.3"
-  }
+    "@discordjs/ws": "^0.1.1-dev.1658707934-5a3c999.0",
+    "bufferutil": "^4.0.6",
+    "discord-api-types": "^0.36.3",
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1",
+    "erlpack": "^0.1.4",
+    "eslint": "^8.20.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.0.2",
+    "libsodium-wrappers": "^0.7.10",
+    "opusscript": "^0.0.8",
+    "sodium-native": "^3.3.0",
+    "tweetnacl": "^1.0.3",
+    "utf-8-validate": "^5.0.9",
+    "zlib-sync": "^0.1.7"
+  },
+  "name": "ofen",
+  "version": "1.0.0",
+  "description": "Ein neuer Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "register.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t0g3pii/ofen.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "author": "t0g3pii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t0g3pii/ofen/issues"
+  },
+  "homepage": "https://github.com/t0g3pii/ofen#readme"
 }

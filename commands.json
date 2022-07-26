@@ -16,7 +16,7 @@
         "description": "Nimmt eine Role von einer Person nach einer bestimmten zeit weg und gibt ihm eine neue Role",
         "infoAnMich": "time = 2h = 2 Stunden etc. // Prüft ob @person @oldrole hat und wechselt sie nach @time mit @newrole"
     },{
-        "name": "addrrole msg_id:msg_id emoji: :emoji:role:@role",
+        "name": "addrrole msg_id:msg_id emoji: :emoji: role:@role",
         "description": "Füge eine Reaction Role zu einer Nachricht Hinzu",
         "infoAnMich": "fügt eine Reactionrole zu einer Nachricht Hinzu (das 1 r von addrrole is für reaction addreactionrole same bei removerrole)"
     },{
