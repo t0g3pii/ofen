@@ -38,7 +38,7 @@
         "description": "Fügt den geburtstag ohne Jahr hinzu also kein alter wird bestimmt",
         "infoAnMich": "(@person hat heute Geburtstag, alles gute)"
     },{
-        "name": "removebady",
+        "name": "removebdady",
         "description": "Entfernt deinen Geburtstag",
         "infoAnMich": ""
     },{
@@ -49,5 +49,13 @@
         "name": "",
         "description": "",
         "infoAnMich": ""
+    },{
+        "UserChannel": "Voice Channel für User wie bei Mee6^^"
+    },{
+        "CustomCommands": "Im Webinterface eine kategorie zum custom commands erstellen machen"
+    },{
+        "TwitchLiveNachricht": "Nachrit wenn eine eingestellte person auf Twitch live geht (Webinterface wie bei Mee6)"
+    },{
+        "WillkommensNachrichten": "Webinterface für Willkommensnachricht"
     }
 ]
